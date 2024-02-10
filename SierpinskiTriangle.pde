@@ -4,7 +4,6 @@ int noBalls = 100;
 public void setup()
 {
   size(1000, 1000);
-  frameRate(120);
 }
 public void draw()
 {
@@ -27,4 +26,5 @@ public void sierpinski(int x, int y, int len)
    sierpinski(x, y, len/2);
    sierpinski(x + len/2, y, len/2); 
    sierpinski(x + len/4, y - len/2, len/2);
+}
 }
